@@ -30,7 +30,7 @@ public class tinhGiaTriTrungBinh {
 			System.out.println("Nhập số nguyên thứ 5");
 			tongSoNhap += Integer.parseInt(scan.nextLine());
 			
-			giaTriTrungBinh = tongSoNhap/ soLanNhap;
+			giaTriTrungBinh = tongSoNhap/ soLanNhap; 
 			
 			System.out.println("Giá trị trung bình của 5 số nguyên là:" + (int) giaTriTrungBinh );
 			
